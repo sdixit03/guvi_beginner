@@ -1,0 +1,11 @@
+n=int(input())
+a=0
+ori=n;
+while(ori!=0):
+    rem=ori%10
+    a+=rem*rem*rem
+    ori/=10
+if(a==n):
+    print('yes')
+else:
+    print('no')
